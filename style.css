@@ -113,18 +113,18 @@ header #branding img{
 }
 
 
-#boxes .box{
+#boxes .col-md-4{
   float:left;
   text-align: center;
   width: 30%;
   padding-left: 30px;
 }
 
-#boxes .box p{
+#boxes .col-md-4 p{
   color: #ffffff
 }
 
-#boxes .box img{
+#boxes .col-md-4 img{
   width:90px;
 }
 
@@ -136,7 +136,7 @@ footer{
 }
 
 /* media Queries */
-@media and screen(max-width: 360px){
+@media screen and(max-width: 360px){
   header #branding,
   header nav,
   header nav li
@@ -149,4 +149,12 @@ footer{
   header ul {
     margin-top: 0px;
   }
-}
+
+  }
+
+  @media screen and (max-width: 360px) {
+    #boxes .col-md-4 {
+      width: 100%;
+      padding-left: 10px;
+    }
+  }
