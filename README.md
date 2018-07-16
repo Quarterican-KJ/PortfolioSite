@@ -1,2 +1,3 @@
 # PortfolioSite
-Its a portfolio mock up, what more do you want to know?
+This site utilizes a responsive design while showcasing skills in HTML5, CSS3, and JQuery.
+
